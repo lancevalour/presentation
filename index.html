@@ -4,22 +4,31 @@
 <head>
   <title>Title</title>
   <meta charset="utf-8">
-  <style>
-    @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
-    @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-    @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-    @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+  <style type="text/css">
+    /* @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500); */
+    @font-face{
+       font-family: 'Roboto Regular';
+       src: url('./font/Roboto-Regular.ttf');
+     }
+     @font-face{
+       font-family: 'Roboto Medium';
+       src: url('./font/Roboto-Medium.ttf');
+     }
+     @font-face{
+       font-family: 'Roboto Light';
+       src: url('./font/Roboto-Light.ttf');
+     }
+
 
     body {
-      font-family: 'Roboto';
-      font-weight: 400;
+      font-family: 'Roboto Regular';
     }
 
     h1,
     h2,
     h3 {
-      font-family: 'Roboto';
-      font-weight: 300;
+      font-family: 'Roboto Light';
+
     }
 
     /* .remark-code, */
@@ -31,38 +40,14 @@
 </head>
 
 <body>
-  <textarea id="source">
-
-    class: center, middle
-
-    # Title
-
-    ---
-
-    # Agenda
-
-    1. Introduction
-    2. Deep-dive
-    3. ...
-
-    ---
-
-    # Introduction
-    ```python
-    def model_test():
-    session = session_factory(TRACKER_TEST_DB)
-
-    print(datetime.datetime.now(pytz.timezone(local_timezone())))
-
-    ```
-
-  </textarea>
-  <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+  <script src="remark.min.js">
   </script>
   <script>
     var slideshow = remark.create({
       sourceUrl: 'slide.md',
       highlightStyle: 'github',
+      highlightLines: true,
+      highlightSpans: true
     });
   </script>
 </body>

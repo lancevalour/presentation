@@ -1,5 +1,8 @@
+class: middle, center
+
 # Slide 1
 ## code
+some text
 
 ---
 
@@ -9,6 +12,7 @@
 var slideshow = remark.create({
   highlightLanguage: 'javascript',
   highlightStyle: 'monokai',
+*  adfa
   ...
 });
 ```
