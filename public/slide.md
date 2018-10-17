@@ -18,3 +18,12 @@ var slideshow = remark.create({
 ```
 ???
 Some note.
+
+---
+
+# Slide 3
+```xml
+
+```
+
+---
