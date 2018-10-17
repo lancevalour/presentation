@@ -3,7 +3,7 @@ A presentation template.
 
 ## Run
 ```
-http-server -p 8000
+live-server --port=8000
 ```
 ## Keyboard Shortcut
 All of these shortcuts can also be seen during a presentation by pressing **H** or **?**
