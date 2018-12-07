@@ -1,5 +1,5 @@
 var slideshow = remark.create({
-	sourceUrl: 'slide.md',
+	sourceUrl: '/presentations/markdown/markdown.md',
 	highlightStyle: 'github',
 	highlightLines: true,
 	highlightSpans: true
