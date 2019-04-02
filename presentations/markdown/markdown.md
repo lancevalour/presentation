@@ -2,16 +2,16 @@ class: middle, center
 <!-- background-image: url(background.png) -->
 
 # Markdown
-### How I learned to stop worrying and love Markdown
-
-Yicheng Zhang
-
+How I learned to stop worrying and love writing
+<br/>
+<br/>
+<br/>
+##### Yicheng Zhang
 ---
 
-background-image: url(background.png)
+<!-- background-image: url(background.png) -->
 
 # What is it
-
 <img src="./presentations/markdown/images/markdown.png" width="150"/>
 
 [Wikipedia](https://en.wikipedia.org/wiki/Markdown):
@@ -20,29 +20,39 @@ background-image: url(background.png)
 [John Gruber](https://daringfireball.net/projects/markdown):
 > Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
 
-Markdown is a tool to help you write better documentation.
+Markdown is a tool to help you write better.
 
 ---
 
 # Where is it used
 - README
+    - Github
+    - Bitbucket
 - Blogging
+    - Jekyll
+    - Ghost
 - Documentation
+    - Confluence
+    - Read the Docs
+    - Github/Bitbucket Wiki
 - Presentation
+    - Remark.js (This presentation uses it)
+    - Reveal.js
 ---
-
 
 # Why bother
 - Focus on words, not formatting
-  - Easy syntax
-  - Limited features :bowtie:
-  - 
+    - Easy syntax
+    - Plain text
+    - Limited features
 
 - Version control
 
 - Platform independent
 
+- Easy for publishing
 
+- **Code syntax highlighting**
 
 ---
 
@@ -57,7 +67,7 @@ Markdown is a tool to help you write better documentation.
 
 ```markdown
 - item1
-- item2 
+- item2
   - item2a
   - item2b
 ```
@@ -81,11 +91,6 @@ As someone said:
 def func():
     print("markdown")
 ``````
-
-```python
-def func():
-    print("markdown")
-```
 ---
 
 # Syntax
@@ -102,25 +107,33 @@ def func():
 
 ```
 
+---
 
+# Example
 
 ---
 
 # Demo
-[link](https://dillinger.io/)
+Atom
 
-
-
+[Online Markdown Editor](https://dillinger.io/)
 ---
 
 # Markdown Tutorial
 - [Github Markdown Guide](https://guides.github.com/features/mastering-markdown/)
 
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
 ---
 
 # Reference
 - [Markdown](https://daringfireball.net/projects/markdown/)
+
 - [Say yes to Markdown, no to MS Word](https://hackernoon.com/say-yes-to-markdown-no-to-ms-word-be4692e7a8cd)
-- []
+
+- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+
+- [CommonMark Spec](https://spec.commonmark.org/)
+
+---
+class: middle, center
+# Thank you!
